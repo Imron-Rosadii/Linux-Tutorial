@@ -4,8 +4,6 @@ Berikut adalah tutorial lengkap dengan langkah-langkah untuk mengonfigurasi IP s
 
 Dalam tutorial ini, kita akan mengonfigurasi IP statis di interface `ens33`, menambahkan DNS, memastikan koneksi internet dengan `ping` ke `google.com`, dan mengganti hostname menjadi `server1.example.com`.
 
----
-
 ## 1. Set IP Address Statis di Interface `ens33`
 
 **Task:** Atur IP address statis di interface `ens33` dengan alamat `192.168.100.10/24` dan gateway `192.168.100.1`.
