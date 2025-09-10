@@ -1,6 +1,5 @@
 Berikut adalah tutorial lengkap dengan langkah-langkah untuk mengonfigurasi IP statis di `ens33`, menambahkan DNS, memastikan koneksi ke google.com, dan mengganti hostname menjadi `server1.example.com`:
 
-````md
 # 🧑‍💻 Networking Configuration (Set IP, DNS, Hostname)
 
 Dalam tutorial ini, kita akan mengonfigurasi IP statis di interface `ens33`, menambahkan DNS, memastikan koneksi internet dengan `ping` ke `google.com`, dan mengganti hostname menjadi `server1.example.com`.
@@ -15,7 +14,6 @@ Dalam tutorial ini, kita akan mengonfigurasi IP statis di interface `ens33`, men
 # Edit file konfigurasi jaringan untuk interface ens33
 sudo nano /etc/sysconfig/network-scripts/ifcfg-ens33
 ```
-````
 
 📌 **Konfigurasi yang perlu ditambahkan**:
 
